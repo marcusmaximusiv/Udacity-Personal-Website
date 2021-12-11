@@ -1,0 +1,25 @@
+.navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:black;
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+.navlinks{
+    float: left;
+  }
+  
+.navlinks a {
+    display: flex;
+    color: red;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+.navlinks a:hover{
+    background-color: red;
+    color: black;
+  }

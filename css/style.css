@@ -1,0 +1,19 @@
+/*This area of the CSS Stylesheet is for separation of the multiple css 
+files*/
+/*navbar css controls the stylings for the navbar*/
+@import url("navbar.css");
+/*paragraph css controls the stylings for the paragraph*/
+@import url("paragraph.css");
+/*header_footer css controls the stylings of the header and footer*/
+@import url("header_footer.css");
+/*focus of this css file is to control the layout of the website */
+body{
+    background-image: url("../images/gradient.jpeg");
+    display:grid;
+}
+.container{
+    display:grid;
+}
+#body{
+    display:grid;
+}

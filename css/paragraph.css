@@ -1,0 +1,62 @@
+
+/*This part of code controls the sizing and scaling of the youtube video on the homepage*/
+.homepage {
+    overflow: hidden;
+    /* 16:9 aspect ratio */
+    padding-top: 56.25%;
+    position: relative;
+  }
+  .homepage iframe {
+     border: 0;
+     height: 100%;
+     left: 0;
+     position: absolute;
+     top: 0;
+     width: 100%;
+  }
+/*This section of the code controls the cards for the post page*/
+.card h2{
+    text-align: center;
+    color:black;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.card h3{
+    text-align: center;
+    color:black;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.card a{
+    text-decoration: none;
+}
+.card:hover{
+    background-color: red;
+}
+.card{
+    padding-top:20px;
+}
+/*This section controls the author card*/
+.authorcard h3{
+    text-align: center;
+    color:black;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.authorcard a{
+    text-decoration: none;
+}
+.authorcard:hover{
+    background-color: red;
+}
+.authorcard{
+    padding-top:20px;
+}
+.authorcard p{
+    Text-align: center;
+    font-size: 12px;
+}
+/*This section of the css code controls the styling for the body section of the posts article */
+#content{
+    text-align: center;
+}

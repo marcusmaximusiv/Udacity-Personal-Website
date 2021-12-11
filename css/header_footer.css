@@ -1,0 +1,25 @@
+header{
+    background-image:url("../images/gradient.jpeg");
+    text-align: center; 
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.social{
+    align-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+.social a:hover{
+    background-color: red;
+  }
+.social a {
+    display: flex;
+    color: red;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
